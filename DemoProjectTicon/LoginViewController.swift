@@ -50,12 +50,14 @@ class LoginViewController: UIViewController {
             case false:
                 result?.user.sendEmailVerification(completion: { (error) in
                 if(error != nil){
-                AlartController.showAlart(self, title: "error", message: "unable to send verification email!")
+                AlartController.showAlart(self, title: "error", message: "We have blocked all requests from this device due to unusual activity. Try again later.")
+                    print(error!.localizedDescription)
                     }else{
                     return self.performSegue(withIdentifier: "emailSent", sender: self)
                     
                     }
-                  AlartController.showAlart(self, title: "error", message: "unable to send verification email!")
+                  AlartController.showAlart(self, title: "error", message: ( "We have blocked all requests from this device due to unusual activity. Try again later.")
+                    )
                 })
             default:
                 AlartController.showAlart(self, title: "error!", message: "email varification failed !")
