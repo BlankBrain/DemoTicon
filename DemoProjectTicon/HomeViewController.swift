@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth 
 
 class HomeViewController: UIViewController {
 
@@ -14,7 +15,16 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    override func viewDidAppear(_ animated: Bool) {
+           self.navigationController?.navigationBar.isHidden = true
+       }
     
+    @IBAction func logoutBtnClicked(_ sender: Any) {
+        
+        try! Auth.auth().signOut()
+        self.performSegue(withIdentifier: "HomeToLogin", sender: self)
 
+    }
+    
 
 }

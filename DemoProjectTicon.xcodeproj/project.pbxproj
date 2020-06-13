@@ -74,6 +74,17 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		739D162224948DE100F3CBBF /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				73A23A66249349D500562A2E /* ResetPasswordViewController.swift */,
+				73A23A5F2493497400562A2E /* LoginViewController.swift */,
+				73A23A62249349A100562A2E /* SignUpViewController.swift */,
+				73A23A64249349BF00562A2E /* EmailValidationViewController.swift */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
 		73A23A3F249348D100562A2E = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +106,10 @@
 		73A23A4A249348D100562A2E /* DemoProjectTicon */ = {
 			isa = PBXGroup;
 			children = (
+				739D162224948DE100F3CBBF /* auth */,
 				739D161F24948CD500F3CBBF /* Helper */,
 				73A23A6C24947DD600562A2E /* GoogleService-Info.plist */,
 				73A23A682493662400562A2E /* HomeViewController.swift */,
-				73A23A612493498600562A2E /* AUTH */,
 				73A23A4B249348D100562A2E /* AppDelegate.swift */,
 				73A23A4D249348D100562A2E /* SceneDelegate.swift */,
 				73A23A51249348D100562A2E /* Main.storyboard */,
@@ -107,17 +118,6 @@
 				73A23A59249348D400562A2E /* Info.plist */,
 			);
 			path = DemoProjectTicon;
-			sourceTree = "<group>";
-		};
-		73A23A612493498600562A2E /* AUTH */ = {
-			isa = PBXGroup;
-			children = (
-				73A23A5F2493497400562A2E /* LoginViewController.swift */,
-				73A23A62249349A100562A2E /* SignUpViewController.swift */,
-				73A23A64249349BF00562A2E /* EmailValidationViewController.swift */,
-				73A23A66249349D500562A2E /* ResetPasswordViewController.swift */,
-			);
-			path = AUTH;
 			sourceTree = "<group>";
 		};
 		E677957DEC021A6692F36F9A /* Frameworks */ = {
