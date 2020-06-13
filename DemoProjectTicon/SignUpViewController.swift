@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
     func signup(){
         //MARK: validation
                       
-        if(  name.text != "" && Validation.validateEmail(enteredEmail: email.text ?? "") == true && Validation.validatePasswordForLogin(password: self.password1.text ?? "") == true){
+        if(  name.text != "" && Validation.validateEmail(enteredEmail: email.text ?? "") == true && Validation.validatePasswordForLogin(password: self.password1.text ?? "") == true && password1.text ?? "" == password2.text){
                           
                           //MARK: Create user
                           Auth.auth().createUser(withEmail: email.text!, password: password1.text!) { (result, Error) in
