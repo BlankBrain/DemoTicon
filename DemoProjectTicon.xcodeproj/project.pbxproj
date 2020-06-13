@@ -11,6 +11,7 @@
 		739D16242494982400F3CBBF /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D16232494982400F3CBBF /* ResetPassViewController.swift */; };
 		739D162624949AC300F3CBBF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D162524949AC300F3CBBF /* SignUpViewController.swift */; };
 		739D16282494BAD600F3CBBF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D16272494BAD600F3CBBF /* RoundButton.swift */; };
+		739D162B2494F34B00F3CBBF /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D162A2494F34B00F3CBBF /* chatTableViewCell.swift */; };
 		73A23A4C249348D100562A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A23A4B249348D100562A2E /* AppDelegate.swift */; };
 		73A23A4E249348D100562A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A23A4D249348D100562A2E /* SceneDelegate.swift */; };
 		73A23A53249348D100562A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A23A51249348D100562A2E /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		739D16232494982400F3CBBF /* ResetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
 		739D162524949AC300F3CBBF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		739D16272494BAD600F3CBBF /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		739D162A2494F34B00F3CBBF /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
 		73A23A48249348D100562A2E /* DemoProjectTicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProjectTicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A23A4B249348D100562A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A23A4D249348D100562A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			name = auth;
 			sourceTree = "<group>";
 		};
+		739D16292494F31200F3CBBF /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				739D162A2494F34B00F3CBBF /* chatTableViewCell.swift */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
 		73A23A3F249348D100562A2E = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		73A23A4A249348D100562A2E /* DemoProjectTicon */ = {
 			isa = PBXGroup;
 			children = (
+				739D16292494F31200F3CBBF /* chat */,
 				739D162224948DE100F3CBBF /* auth */,
 				739D161F24948CD500F3CBBF /* Helper */,
 				73A23A6C24947DD600562A2E /* GoogleService-Info.plist */,
@@ -248,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A23A65249349BF00562A2E /* EmailValidationViewController.swift in Sources */,
+				739D162B2494F34B00F3CBBF /* chatTableViewCell.swift in Sources */,
 				73A23A602493497400562A2E /* LoginViewController.swift in Sources */,
 				73A23A4C249348D100562A2E /* AppDelegate.swift in Sources */,
 				739D16242494982400F3CBBF /* ResetPassViewController.swift in Sources */,
