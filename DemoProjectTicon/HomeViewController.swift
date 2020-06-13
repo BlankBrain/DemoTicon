@@ -11,12 +11,14 @@ import FirebaseAuth
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var userEmail: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     override func viewDidAppear(_ animated: Bool) {
            self.navigationController?.navigationBar.isHidden = true
+        self.userEmail.text = Auth.auth().currentUser?.email
        }
     
     @IBAction func logoutBtnClicked(_ sender: Any) {
