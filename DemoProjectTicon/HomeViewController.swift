@@ -29,6 +29,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         ref = Database.database().reference()
         getName()
         let seconds = 2.0
@@ -151,7 +152,6 @@ extension HomeViewController : UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell  {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! chatTableViewCell
         
-       
         cell.date.text =  messageList[indexPath.row].date
         cell.email.text = messageList[indexPath.row].email
         cell.name.text = messageList[indexPath.row].name
