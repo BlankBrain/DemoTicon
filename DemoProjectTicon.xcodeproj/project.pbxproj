@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		739D162124948D0200F3CBBF /* AlartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D162024948D0200F3CBBF /* AlartController.swift */; };
 		73A23A4C249348D100562A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A23A4B249348D100562A2E /* AppDelegate.swift */; };
 		73A23A4E249348D100562A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A23A4D249348D100562A2E /* SceneDelegate.swift */; };
 		73A23A53249348D100562A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A23A51249348D100562A2E /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5C8945B9B71011B59006647E /* Pods_DemoProjectTicon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectTicon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		739D162024948D0200F3CBBF /* AlartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartController.swift; sourceTree = "<group>"; };
 		73A23A48249348D100562A2E /* DemoProjectTicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProjectTicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A23A4B249348D100562A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A23A4D249348D100562A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		739D161F24948CD500F3CBBF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				739D162024948D0200F3CBBF /* AlartController.swift */,
+				73A23A6A24947C6900562A2E /* Validation.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		73A23A3F249348D100562A2E = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +95,7 @@
 		73A23A4A249348D100562A2E /* DemoProjectTicon */ = {
 			isa = PBXGroup;
 			children = (
+				739D161F24948CD500F3CBBF /* Helper */,
 				73A23A6C24947DD600562A2E /* GoogleService-Info.plist */,
 				73A23A682493662400562A2E /* HomeViewController.swift */,
 				73A23A612493498600562A2E /* AUTH */,
@@ -104,7 +116,6 @@
 				73A23A62249349A100562A2E /* SignUpViewController.swift */,
 				73A23A64249349BF00562A2E /* EmailValidationViewController.swift */,
 				73A23A66249349D500562A2E /* ResetPasswordViewController.swift */,
-				73A23A6A24947C6900562A2E /* Validation.swift */,
 			);
 			path = AUTH;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 				73A23A63249349A100562A2E /* SignUpViewController.swift in Sources */,
 				73A23A692493662400562A2E /* HomeViewController.swift in Sources */,
 				73A23A6B24947C6900562A2E /* Validation.swift in Sources */,
+				739D162124948D0200F3CBBF /* AlartController.swift in Sources */,
 				73A23A4E249348D100562A2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

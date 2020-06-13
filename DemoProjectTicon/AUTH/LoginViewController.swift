@@ -11,9 +11,9 @@ import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    
+    //MARK: outlets
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
     
     
     override func viewDidLoad() {
@@ -24,8 +24,8 @@ class LoginViewController: UIViewController {
         self.navigationController?.navigationBar.isHidden = true
     }
     
+    //MARK: Actions
     @IBAction func loginBtnClicked(_ sender: Any) {
-        
     }
     
 
